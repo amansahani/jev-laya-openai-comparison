@@ -1,0 +1,30 @@
+# Environment & Secrets (NEVER push keys)
+.env
+.env.*
+!.env.example
+
+# Markdown files (Keep blog post and notes local only)
+*.md
+!README.md
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# System and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Internal agent folders
+.agents/
+.gemini/
